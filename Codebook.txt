@@ -1,0 +1,19 @@
+Title: Codebook for Getting and Cleaning data project
+date: 8/20/2019
+
+Project Description: The goal of the project was to collect and tidy up a datset to be used for data analysis. A total of 10299 observations were collected and a total of 561 features.
+
+Study Design: 30 Volunteers within the age of 19-48. Each person perfform daily activities including walking, walking upstairs, walking downstairs, sitting, standing, and laying. The Samsung Galaxy SII was used with it's embedded accelerometer and gyroscope. 3-axial linear acceleration and 3 axial angular velocity were captured at a constant rate of 50Hz. The data was randomly partitioned so that 70% is considered the trainign set and 30% considered the test set. 
+
+Guide to create tidy data: 
+1) Downlaod data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+2) Import text files into R (or other software) 
+3) Combine the training and test datasets
+4) Only keep the columns containing mean and standard deviation
+5) Label the columns in the data appropriately
+
+Description of Variables: Dimensions of raw data are 10299 rows and 661 columns
+For each record in the dataset, triaxial accelaeration and estimated body acceleration are recorded
+Triaxial velocity from the gyroscope
+A 561 feature vector with time and frequency domain variables
+Identifier of subject who carried out experiment
